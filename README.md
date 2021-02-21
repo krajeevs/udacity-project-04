@@ -1,6 +1,6 @@
 <include a CircleCI status badge, here>
 
-## Project Overview
+## Project Overview ##
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
 
