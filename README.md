@@ -1,7 +1,5 @@
-<include a CircleCI status badge, here>
+[![krajeevs](https://circleci.com/gh/krajeevs/udacity-project-04.svg?style=svg)](https://app.circleci.com/pipelines/github/krajeevs/udacity-project-04)
 
-[![CircleCI](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg&circle-token=<5d60c255cfacae0ea3bc26f57a53bba39042e113>)](<LINK>)
-[![<ORG_NAME>](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg)](<LINK>)
 ## Project Overview ##
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
