@@ -21,5 +21,5 @@ EXPOSE 80
 ## Step 5:
 # Run app.py at container launch
 #RUN systemctl stop apache2
-CMD [ "/etc/init.d/apache2","stop" ]
+#CMD [ "/etc/init.d/apache2","stop" ]
 CMD [ "python3","app.py" ]
