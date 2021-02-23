@@ -1,1 +1,27 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+(.devops) ubuntu:~/environment/udacity-project-04 (main) $ ./run_kubernetes.sh
+pod/myimage created
+NAME      READY   STATUS              RESTARTS   AGE
+myimage   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+
+(.devops) ubuntu:~/environment/udacity-project-04 (main) $ kubectl get pod
+NAME      READY   STATUS    RESTARTS   AGE
+myimage   1/1     Running   0          76s
+
+(.devops) ubuntu:~/environment/udacity-project-04 (main) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "myimage" already exists
+NAME      READY   STATUS    RESTARTS   AGE
+myimage   1/1     Running   0          85s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+ubuntu:~/environment/udacity-project-04 (main) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
